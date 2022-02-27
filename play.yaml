@@ -1,0 +1,7 @@
+---
+- name: play the roles
+  hosts: all
+  roles:
+    - docker
+    - copy_data
+    - run_containers
